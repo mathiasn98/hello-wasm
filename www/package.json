@@ -34,6 +34,6 @@
     "copy-webpack-plugin": "^5.0.0"
   },
   "dependencies": {
-    "hello-wasm":"../pkg"
+    "hello-wasm": "../pkg"
   }
 }
