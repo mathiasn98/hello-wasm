@@ -17,3 +17,8 @@ extern {
 pub fn greet() {
     alert("Hello, hello-wasm!");
 }
+
+#[wasm_bindgen]
+pub fn hello(str_input: String) -> String {
+    str_input + " world"
+}
